@@ -1,0 +1,16 @@
+.name-card{
+ color: white;
+ background: #282d4f;
+ margin:10px 15px;
+ padding: 10px;
+ border-radius: 10px;
+ transition: 0.35s background;
+}
+
+.link{
+    text-decoration: none;
+}
+.name-card:hover{
+    background: white;
+    color: #282d4f;
+}

@@ -1,0 +1,26 @@
+.searchcontainer {
+    display: flex;
+    justify-content: center;
+}
+.box{
+    padding: 8px;
+    font-size: 18px;
+    border-width: 0;
+    background: #a592f2;
+    color:antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(255,255,255,0.5);
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;    
+
+
+}
+
+.box::placeholder{
+    color:antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box:focus{
+    outline: none;
+}
